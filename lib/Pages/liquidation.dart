@@ -173,7 +173,7 @@ class _LiquidState extends State<Liquid> {
                 Navigator.push(context, 
                 MaterialPageRoute(builder: 
                 
-                (context) => Dashboard(liquidation: liquid, )),
+                (context) => Dashboard(event: liquid.event, fund: liquid.fund, id: liquid.id, )),
                 );
               },
               child: Container(

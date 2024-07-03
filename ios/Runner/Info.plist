@@ -6,6 +6,14 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Liquidapp</string>
+
+	<key>NSCameraUsageDescription</key>
+	<string>Camera Permission Description</string>
+	<!-- <key>NSCameraUsageDescription</key>
+	<string>Camera Permission Description</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo gallery permission</string> -->
+
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
